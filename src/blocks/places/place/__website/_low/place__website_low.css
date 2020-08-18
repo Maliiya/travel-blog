@@ -1,0 +1,20 @@
+.place__website_low{
+    margin-top: 65px;
+}
+
+@media screen and (min-width:  1024px) and (max-width: 1279px) {
+    
+        
+}
+@media screen and (min-width:  768px) and (max-width: 1023px) {
+    .place__website_low{
+        margin-top: -15px;
+}
+    .place__website_low-adp{
+        margin-top:21px;
+    }
+    
+
+}
+        
+

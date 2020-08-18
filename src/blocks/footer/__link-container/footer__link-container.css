@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 767px) and (min-width: 376px){
+    .footer__link-container{
+        margin-left: 4%;
+        margin-bottom: 35px;
+}}
+@media screen and (max-width: 375px) {
+    .footer__link-container{
+        margin-left: 4%;
+        margin-bottom: 35px;
+}}
+
+

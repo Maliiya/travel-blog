@@ -1,0 +1,37 @@
+
+.lead__img-container{
+    position: relative;
+    max-width: 984px;
+    margin: 0px;
+    min-height: 20vh;
+    margin-bottom: 13.87px;
+    line-height: 0px;
+    background: url(../../../images/lead_img.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+@media screen and (min-width:  1024px) and (max-width: 1279px) {
+    .lead__img-container{
+        margin-bottom: 27px;
+        margin-left: 3%;
+        max-width: 929px;
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1023px) {
+}
+@media screen  and (min-width: 376px) and (max-width: 767px){
+    .lead__img-container{
+        margin-bottom: 16px;
+}}
+
+@media screen and (max-width: 375px) {
+    .lead__img-container{
+        margin-bottom: 8px;
+}}
+
+.img-inner{
+    padding-top: 56%; 
+    display: block;
+    height: 0;
+    
+}

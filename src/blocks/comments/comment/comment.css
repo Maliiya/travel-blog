@@ -1,0 +1,53 @@
+@import url("./__author/comment__author.css");
+@import url("./__image/comment__image.css");
+@import url("./__quote/__quote.css");
+
+.comment{
+    max-width: 382px;
+    margin-right: 19px;
+    
+}
+
+.comment:last-child{
+    margin-right: 0px;
+}
+
+@media screen and (min-width:  1024px) and (max-width: 1279px) {
+    
+}
+@media screen and (min-width:  768px) and (max-width: 1023px) {
+    .comment{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+    
+    .comment:last-child{
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 376px){
+    .comment{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+    
+    .comment:last-child{
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .comment{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+    
+    .comment:last-child{
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,41 @@
+@import url("./place/place.css");
+
+.places{
+    margin-bottom: 106px;
+    width: 95vw;
+    max-width: 984px;
+    
+}
+
+@media screen and (min-width:  1024px) and (max-width: 1279px) {
+    .places{
+        width: 91vw;
+        margin-bottom: 109px;
+        /* margin-right: 3vw;
+        margin-left: 3vw; */
+    }
+}
+@media screen and (min-width:  768px) and (max-width: 1023px) {
+    .places{
+        margin-right: 38px;
+        margin-left: 38px;
+        width: 99vw;
+}}
+@media screen and (max-width: 767px) and (min-width: 376px){
+    .places{
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 68px;
+        justify-content: center;
+        align-items: center;
+        max-width: 767px;
+        
+    }}
+@media screen and (max-width: 375px) {
+    .places{
+        margin-bottom: 23px;
+        justify-content: center;
+        align-items: center;
+        max-width: 768px;
+        width: 100%;
+}}

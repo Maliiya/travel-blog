@@ -1,0 +1,11 @@
+.lead__image-front{
+    position: absolute;
+    top:22.897154%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 95%;
+    background-size: cover;
+    background-position: center;
+}
